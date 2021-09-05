@@ -1,0 +1,31 @@
+:root {
+    --bg-color2: #ffffff;
+    --bg-color: #F4F5F8;
+    --object-color: #ffffff;
+    --border-item-color: #bbbbbb;
+    --border-object-color: #E5E5E5;
+    --padding-content: 20px;
+    --border-radius: 4px;
+    --menu-width: 278px;
+    --content-padding: 16px;
+}
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url(../../assets/fonts/notosans-regular.2cb88a13.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'NotoSans-Italic';
+    src: url(../../assets/fonts/notosans-italic.1c1aaac9.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url(../../assets/fonts/notosans-bold.3ede5aff.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'NotoSans-SemiBold';
+    src: url(../../assets/fonts/notosans-semibold.df3e6dc4.woff2) format('woff2');
+}

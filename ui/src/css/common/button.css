@@ -1,0 +1,52 @@
+.button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px 20px;
+    color: #111;
+    border: 1px solid #8D9096;
+    background-color: #fff;
+    line-height: 13px;
+    font-size: 13px;
+    font-family: NotoSans-Regular;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #D2D3D6;
+}
+
+.button.button-icon {
+    padding-left: 16px;
+    padding-right: 16px;
+    white-space: nowrap;
+}
+
+.button.button-green {
+    border: none;
+    color: #ffffff;
+    background-color: #2CA01C;
+}
+
+.button.button-green:hover,
+.button.button-green:focus {
+    background-color: #35bf22;
+}
+
+.button.button-red {
+    border: none;
+    color: #ffffff;
+    background-color: #F65454;
+}
+
+.button.button-red:hover {
+    background-color: #fd7b7b;
+}
+
+.button#buttonDel {
+    visibility: hidden;
+}

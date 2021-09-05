@@ -1,0 +1,17 @@
+.flex {
+    outline: none;
+    display: flex;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex.justify-content-sb {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    justify-content: center;
+    align-items: center;
+}

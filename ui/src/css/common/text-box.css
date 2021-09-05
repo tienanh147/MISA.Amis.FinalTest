@@ -1,0 +1,11 @@
+.text-box-default {
+    display: flex;
+    height: 32px;
+    border: 1px solid #BABEC5;
+    font-family: NotoSans-Regular;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    align-items: center;
+}

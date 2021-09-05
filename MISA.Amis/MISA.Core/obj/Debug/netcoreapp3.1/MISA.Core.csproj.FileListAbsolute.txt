@@ -1,0 +1,12 @@
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\bin\Debug\netcoreapp3.1\MISA.Core.deps.json
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\bin\Debug\netcoreapp3.1\MISA.Core.dll
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\bin\Debug\netcoreapp3.1\MISA.Core.pdb
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.csproj.AssemblyReference.cache
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.Resources.Resources.resources
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.csproj.GenerateResource.cache
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.AssemblyInfoInputs.cache
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.AssemblyInfo.cs
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.csproj.CoreCompileInputs.cache
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.dll
+D:\LaptopData\FresherWeb\MISA.AMIS\MISA.Amis\MISA.Core\obj\Debug\netcoreapp3.1\MISA.Core.pdb

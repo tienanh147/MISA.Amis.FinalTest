@@ -1,0 +1,213 @@
+@import url('./form-input-info.css');
+:root {
+    /* --padding-right-left: 16px; */
+    --form-width-ava: 120px;
+    --form-header-height: 72.8px;
+    --form-footer-height: 90px;
+    --form-padding-lr: 32px;
+    /* --border-radius: 4px; */
+}
+
+.modal {
+    /* display: none; */
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    /* overflow: auto; */
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    /* padding-top: 60px; */
+}
+
+.form-wrapper {
+    position: absolute;
+    width: 900px;
+    height: 83%;
+    top: 8.5%;
+    left: calc(50% - 450px);
+    background-color: var(--object-color);
+    /* border: 1px solid #888; */
+    /* border-radius: var(--border-radius); */
+    /* Could be more or less, depending on screen size */
+    /* padding: 0 16px; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.form-wrapper .form-wrapper-header {
+    width: 100%;
+    height: var(--form-header-height);
+    padding-left: var(--form-padding-lr);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.form-wrapper .form-wrapper-header .header-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: NotoSans-Bold;
+}
+
+.form-wrapper .form-wrapper-header .header-checkboxes {
+    margin-left: 19.5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.form-wrapper-header .x-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25px;
+    width: 25px;
+    border-radius: 0px var(--border-radius) 0px var(--border-radius);
+    background-size: 16px 16px;
+    background-color: inherit;
+}
+
+.form-wrapper-header .x-btn:hover {
+    background-color: #E5E5E5;
+}
+
+
+/* content */
+
+.form-wrapper .form-content {
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 var(--form-padding-lr);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.form-content .input-wrapper {
+    position: relative;
+    outline: none;
+    padding-bottom: 15px;
+}
+
+.input-wrapper>label {
+    font-size: 12px;
+    margin-bottom: 3px;
+    display: block;
+    font-family: NotoSans-Bold;
+    /* font-weight: 700; */
+}
+
+.input-wrapper .radio-buttons-group {
+    width: 80%;
+    height: calc(100% - 19px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-content .flex {
+    outline: none;
+    display: flex;
+}
+
+.form-content .flex.wrap {
+    flex-wrap: wrap;
+}
+
+.form-content .flex.justify-content-sb {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-container {
+    outline: none;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.inputs-container.width-1\/2 {
+    width: calc(50% - 13px);
+}
+
+.form-wrapper .form-footer {
+    margin: 0 var(--form-padding-lr);
+    border-top: 1px solid #E0E0E0;
+    padding-top: 20px;
+    height: calc(var(--form-footer-height));
+    width: calc(100% - 2* var(--form-padding-lr));
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.form-footer .right-footer {
+    display: flex;
+}
+
+.right-footer .button {
+    margin-left: 10px;
+}
+
+.form-footer .button {
+    font-family: NotoSans-SemiBold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0.7)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0.7)
+    }
+    to {
+        transform: scale(1)
+    }
+}
